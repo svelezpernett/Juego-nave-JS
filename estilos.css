@@ -1,0 +1,43 @@
+.tablero{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid red;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+h1, h3{
+    text-align: center;
+}
+
+.tablero div{
+    width: 20px;
+    height: 20px;
+
+}
+
+.balas{
+    background-color: rgb(255, 132, 0);
+}
+
+.aliens{
+    background-color: rgb(147, 209, 0);
+    border-radius: 10px;
+}
+
+.nave{
+    background-color: silver;
+}
+
+.explocion{
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(222,0,255,1) 17%, rgba(0,212,255,1) 100%);
+}
+
+body{
+    background-image: url("imagenes/nebula.jpg");
+    background-size: cover;
+   background-repeat: no-repeat;
+   
+}
